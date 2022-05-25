@@ -89,9 +89,11 @@
 										<div class="number"
 											 style="color: #999;font-size: 15px;display: flex;justify-content: center;margin: 1%;">
 											<?php if (!empty($this->options->Decc)): ?>
+											    <a href="/admin">
 												<div class="mdui-chip">
 													<span class="mdui-chip-title"><?php $this->options->Decc() ?></span>
 												</div>
+												</a>
 											
 											<?php else: ?>
 												<div class="mdui-chip">

@@ -126,7 +126,7 @@
 		})();
 	</script>
 
-	<div class="mdui-chip shadow-A1" style="background-color: #ececec;">
+	<div class="mdui-chip shadow-A1" style="background-color: #ececec; pointer-events: none;">
 		<span class="mdui-chip-icon"><i class="mdui-icon material-icons">create</i></span>
 		<span class="mdui-chip-title"><?php _e('添加新评论'); ?></span>
 	</div>
@@ -214,7 +214,7 @@
 <?php endif; ?>
 <?php if ($comments->have()): ?>
 	<br/>
-	<div class="mdui-chip shadow-A1" style="background-color: #ececec;">
+	<div class="mdui-chip shadow-A1" style="background-color: #ececec; pointer-events: none;">
 		<span class="mdui-chip-icon"><i class="mdui-icon material-icons">assessment</i></span>
 		<span class="mdui-chip-title"><?php $this->commentsNum(_t('暂无评论'), _t('仅有一条评论'), _t('已有 %d 条评论')); ?></span>
 	</div>

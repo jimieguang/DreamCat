@@ -173,7 +173,7 @@
 				<div class="mdui-divider"></div>
 				<div>
 					<a>
-						<li class="mdui-list-item mdui-ripple">
+						<li class="mdui-list-item mdui-ripple" style="pointer-events: none;">
 							<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-theme-text">description</i>
 							<span class="mdui-list-item-content mdui-text-color-theme-text">文&nbsp;&nbsp;章</span>
 							<div class="mdui-chip">
@@ -186,7 +186,7 @@
 				</div>
 				<div>
 					<a>
-						<li class="mdui-list-item mdui-ripple">
+						<li class="mdui-list-item mdui-ripple" style="pointer-events: none;">
 							<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-theme-text">textsms</i>
 							<span class="mdui-list-item-content mdui-text-color-theme-text">评&nbsp;&nbsp;论</span>
 							<div class="mdui-chip">

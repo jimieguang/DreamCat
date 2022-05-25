@@ -48,19 +48,19 @@
 					</div>
 					<br>
 					<div class="mdui-card-primary-subtitle mdui-text-center">
-						<div class="mdui-chip">
+						<div class="mdui-chip" style="pointer-events: none;">
 							<span class="mdui-chip-icon mdui-color-blue"><i
 										class="mdui-icon material-icons">access_time</i></span>
 							<span class="mdui-chip-title"> <time datetime="<?php $this->date('c'); ?>"
 																 itemprop="datePublished"><?php $this->date(
 									); ?> </span>
 						</div>
-						<div class="mdui-chip">
+						<div class="mdui-chip" style="pointer-events: none;">
 							<span class="mdui-chip-icon mdui-color-blue"><i
 										class="mdui-icon material-icons">brush</i></span>
 							<span class="mdui-chip-title"> <?php art_count($this->cid); ?>个字 </span>
 						</div>
-						<div class="mdui-chip">
+						<div class="mdui-chip" style="pointer-events: none;">
 							<span class="mdui-chip-icon mdui-color-blue"><i
 										class="mdui-icon material-icons">whatshot</i></span>
 							<span class="mdui-chip-title"> <?php _e(getViewsStr($this)); ?></span>
